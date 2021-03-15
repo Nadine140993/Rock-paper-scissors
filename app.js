@@ -36,8 +36,8 @@ const game = () => {
 
                     compareHands(this.textContent, computerChoice);
 
-             playerHand.src = `./assets/${this.textContent}.png`;
-            computerHand.src = `./assets/${computerChoice}.png`;
+             playerHand.src = `./${this.textContent}.png`;
+            computerHand.src = `./${computerChoice}.png`;
 
                 
                 }, 2000)
