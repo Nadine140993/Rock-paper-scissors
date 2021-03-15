@@ -43,6 +43,9 @@ const game = () => {
                 }, 2000)
                 playerHand.style.animation = "shakePlayer 2s ease";
                 computerHand.style.animation = "shakeComputer 2s ease";
+                
+                playerHand.src = `./rock.png`;
+                computerHand.src = `./rock.png`;
             })
         }) 
     }
